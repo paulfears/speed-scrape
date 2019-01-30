@@ -45,8 +45,5 @@
 		
 	}
 
-$scraper = new scraper();
-$scraper->get_html("https://freecarrierlookup.com");
-echo $scraper->post_data("https://freecarrierlookup.com/getcarrier.php",["phonenum"=>"3146203239", "cc"=>"1", "test"=>"456"]);
-echo "done";
+
 ?>
